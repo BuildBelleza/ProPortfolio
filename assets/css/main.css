@@ -142,7 +142,13 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			border: 1.75px solid #e6e4e4;
+      opacity: 0.90;
+      border-radius: 10px;
+      width: 48%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      padding: 10px;
 		}
 
 		.row > .off-4 {
@@ -1553,6 +1559,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+      border-radius: 15%;
 		}
 
 		.image.fit {
@@ -2187,5 +2194,11 @@ input, select, textarea {
 				padding-left: 0.5em;
 				margin-left: 0.5em;
 			}
+
+      .project-title {
+        font-weight: 900;
+        padding-left: 100px;
+        font-size: 22px;
+      }
 
 		}
